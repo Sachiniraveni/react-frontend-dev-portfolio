@@ -1,41 +1,44 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Sachin Iraveni. I've hands-on experience in automation. Proficient with Infrastructure as Code, Container orchestration tools and, in developing CI/CD pipelines⭐. I'm currently working on Cloud security and monitoring tools \uD83D\uDC9C.",
       "section_name": {
         "about": "About me",
-        "projects": "Projects",
+        "projects": "Personal Projects",
         "skills": "Skills",
         "experience": "Experience"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
+        "title": "Deploy Web Application on EKS",
         "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "description": "Allows client to access their highly available web application deployed on AWS EKS. Provisioned the infrastructure using Terragrunt and Terraform. Automate the build process using Github-Actions. Used EKS and ECR to orchestrate the deployment, scaling and management of Docker Containers. Configured to use Nginx Ingress Controller.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/animal-shelter/eks_project.jpeg"
         ],
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-kubernetes-plain colored",
+            "name": "AWS EKS"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-terraform-plain colored",
+            "name": "Terraform"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-kubernetes-plain colored",
+            "name": "HELM"
+          },
+          {
+            "class": "devicon-github-original colored",
+            "name": "Github Actions"
           }
         ]
       },
       {
-        "title": "Photography",
+        "title": "Monitoring using New Relic",
         "startDate": "2018",
         "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
         "images": [
@@ -55,7 +58,7 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
+        "title": "Deploy Web applicaton on ECS",
         "startDate": "2015",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
         "images": [
@@ -81,38 +84,42 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Mutual Mobile",
+        "title": "Associate Cloud Engineer",
+        "years": "07.2021 - present",
         "mainTech": [
-          "Angular 8/9/10"
+          "AWS"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "EKS",
+          "Kubernetes",
+          "Docker",
+          "New Relic",
+          "Terragrunt",
+          "Terraform",
+          "ECS",
+          "Github Actions",
+          "Elastic Beanstalk",
+          "Unit testing",
+          "Cloud Security"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Mutual Mobile",
+        "title": "Cloud Intern",
+        "years": "04.2021 - 06.2019",
         "mainTech": [
-          "Angular 7/8"
+          "AWS"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "CircleCi",
+          "AWS container Tech",
+          "AWS Honeycode",
+          "Prometheus",
+          "Grafana",
+          "Terraform"
         ]
       }
     ]
   }
+

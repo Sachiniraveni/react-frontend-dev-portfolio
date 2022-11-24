@@ -1,0 +1,41 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="11">
+            <item index="0" class="java.lang.String" itemvalue="aws_cdk.aws_sns" />
+            <item index="1" class="java.lang.String" itemvalue="aws-cdk.core" />
+            <item index="2" class="java.lang.String" itemvalue="aws_cdk.aws_ecr" />
+            <item index="3" class="java.lang.String" itemvalue="aws_cdk.aws_secretsmanager" />
+            <item index="4" class="java.lang.String" itemvalue="aws_cdk.aws_iam" />
+            <item index="5" class="java.lang.String" itemvalue="aws_cdk.aws_sqs" />
+            <item index="6" class="java.lang.String" itemvalue="aws_cdk.aws_logs" />
+            <item index="7" class="java.lang.String" itemvalue="aws-cdk.aws_ec2" />
+            <item index="8" class="java.lang.String" itemvalue="aws_cdk.aws_s3" />
+            <item index="9" class="java.lang.String" itemvalue="aws_cdk.aws_sns_subscriptions" />
+            <item index="10" class="java.lang.String" itemvalue="aws_cdk.aws_cognito" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="vpc_stack.self" />
+          <option value="aws_cdk.aws_apigatewayv2" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
